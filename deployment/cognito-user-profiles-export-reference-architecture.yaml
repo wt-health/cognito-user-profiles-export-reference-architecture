@@ -66,7 +66,7 @@ Metadata:
 Mappings:
   Solution:
     Config:
-      SendAnonymousData: "Yes" # change to 'No' to disable the collection of anonymous Operational Metrics for this solution
+      SendAnonymousData: "No" # change to 'No' to disable the collection of anonymous Operational Metrics for this solution
       SolutionId: SO0126
       Version: VERSION_PLACEHOLDER
       S3BucketPrefix: BUCKET_NAME_PLACEHOLDER
