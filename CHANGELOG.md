@@ -5,6 +5,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.10] - 2025-03-14
+
+- Upgrade `axios` to mitigate [CVE-2025-27152](https://nvd.nist.gov/vuln/detail/CVE-2025-27152)
+- Upgrade `babel` to mitigate [CVE-2025-27789](https://nvd.nist.gov/vuln/detail/CVE-2025-27789)
+
+## [1.0.9] - 2025-02-20
+
+### Changed
+
+- Upgraded lambda runtimes to NodeJS 20
+
+## [1.0.8] - 2024-11-27
+
+### Changed
+
+- Updated dependencies to address cross-spawn CVE-2024-21538
+
+## [1.0.7] - 2024-08-19
+
+- Upgrade `axios` to mitigate [CVE-2024-39338](https://nvd.nist.gov/vuln/detail/CVE-2024-39338)
+
+## [1.0.6] - 2024-07-26
+
+### Security
+
+- Upgrade dependency `braces` to mitigate CVE-2024-4068
+
 ## [1.0.5] - 2023-10-20
 
 ### Changed
