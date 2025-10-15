@@ -1,4 +1,4 @@
-⚠️🚨⚠️ __Cognito User Profiles Export Reference Architecture will no longer be supported starting on March 1, 2025 and will not receive any additional features.__ ⚠️🚨⚠️
+⚠️🚨⚠️ This solution has been replaced by [Guidance for User Profiles Export with Amazon Cognito](https://github.com/aws-samples/sample-cognito-user-profiles-export-reference-architecture) ⚠️🚨⚠️
 
 # Cognito User Profiles Export Reference Architecture
 This solution uses an [AWS Step Functions](https://aws.amazon.com/step-functions/) workflow (`ExportWorkflow`) to periodically export user profiles, groups, and group membership details from your user pool to an [Amazon DynamoDB global table](https://aws.amazon.com/dynamodb/global-tables/) with automatic, asynchronous replication to a backup Region for added resiliency. This solution is designed to provide a framework for exporting user profile and group information from your user pool, allowing you to focus on extending the solution’s functionality rather than managing the underlying infrastructure operation. 
